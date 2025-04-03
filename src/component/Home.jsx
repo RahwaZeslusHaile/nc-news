@@ -5,7 +5,7 @@ function Home() {
   const [showArticles, setShowArticles] = useState(false);
 
   const handleClick = () => {
-    setShowArticles(!showArticles); // Toggle articles visibility
+    setShowArticles(!showArticles); 
   };
 
   return (
