@@ -280,3 +280,106 @@ p.error {
   border: 2px solid blue;
   background-color: lightblue;
 }
+
+.comments-section {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+
+.comment-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment-card p {
+  margin: 0.5rem 0;
+}
+
+.comment-card p:first-child {
+  font-weight: bold;
+  color: #333;
+}
+
+.comment-card p:last-child {
+  font-style: italic;
+  color: #555;
+}
+
+.comment-card p.no-comments {
+  text-align: center;
+  color: #777;
+}
+
+
+.add-article-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-article-form input,
+.add-article-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.add-article-form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.add-article-form input[type="date"] {
+  padding-left: 10px;
+}
+
+.add-article-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.add-article-form button:hover {
+  background-color: #45a049;
+}
+
+.add-article-form input:focus,
+.add-article-form textarea:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.add-article-form input::placeholder,
+.add-article-form textarea::placeholder {
+  color: #888;
+}
+
+.add-article-form .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
