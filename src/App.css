@@ -276,3 +276,7 @@ p.error {
   color: red;
   font-weight: bold;
 }
+.article-card.selected {
+  border: 2px solid blue;
+  background-color: lightblue;
+}
