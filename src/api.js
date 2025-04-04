@@ -35,8 +35,22 @@ function fetchCommentsforArticle(article_id) {
     });
 }
 
+function fetchUpdatedArticleVotes(article_id, voteChange) {
+  
+  return axios.patch(`https://nc-news-app-f5i2.onrender.com/api/articles/${article_id}`, {
+    inc_votes: voteChange,
+  })
+    .then((response) => response.data.article)
+    .catch((error) => {
+      console.error("Error updating article votes:", error);
+      throw error;
+    });
+}
 
 
 
 
-export { fetchArticles, fetchArticlesByArticleId,fetchCommentsforArticle };
+
+
+
+export { fetchArticles, fetchArticlesByArticleId,fetchCommentsforArticle,fetchUpdatedArticleVotes };
