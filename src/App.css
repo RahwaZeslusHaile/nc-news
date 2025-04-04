@@ -178,7 +178,7 @@ button:focus {
 
 p {
   font-size: 1.2rem;
-  color: #555;
+  color: #9fedcf;
   text-align: center;
   margin: 20px 0;
 }
@@ -375,7 +375,7 @@ p {
 
 .add-article-form input::placeholder,
 .add-article-form textarea::placeholder {
-  color: #888;
+  color:white;
 }
 
 .add-article-form .error {
